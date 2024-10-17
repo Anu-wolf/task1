@@ -56,7 +56,7 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 history = model.fit(
     train_X, 
     train_y_cat,  #  one-hot encoded labels 
-    epochs=5, 
+    epochs=90, 
     batch_size=32,
     validation_data=(val_X, val_y_cat)  # One-hot encoded validation labels
 )
@@ -77,7 +77,7 @@ model2.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accu
 history2 = model2.fit(
     train_X, 
     train_y_cat,  # one-hot encoded labels 
-    epochs=5, 
+    epochs=90, 
     batch_size=32,
     validation_data=(val_X, val_y_cat)  # One-hot encoded validation labels
 )
