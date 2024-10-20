@@ -6,7 +6,6 @@ from sklearn.metrics import accuracy_score, precision_score, f1_score
 import tensorflow as tf
 from tensorflow.keras import layers, models
 from tensorflow.keras import Input
-from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 
 
 path = 'student-performance-factors.csv'
